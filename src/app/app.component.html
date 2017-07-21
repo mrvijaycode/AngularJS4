@@ -1,0 +1,17 @@
+<h1>
+  {{name | uppercase}}
+</h1>
+
+<h1>
+  {{name | lowercase}}
+</h1>
+
+<h2>{{day}}</h2>
+<h2>{{day | date}}</h2>
+<h2>{{day | date:'shortDate'}}</h2>
+<h2>{{day | date:'fullDate'}}</h2>
+
+<h3>Number sorting</h3>
+<!-- We have to get the piping from the sort.ts file -->
+
+{{arr | sort:'descending'}}
